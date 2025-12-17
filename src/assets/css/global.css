@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  /* Main content area */
+  .container-fluid {
+     -ms-flex: 1; /* IE 10 */
+     flex: 1;
+   }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+     font-family: "Jost", sans-serif;
+  }
+  
+  .fix-nav{
+      position: fixed;
+      top: 0;
+        right: 0;
+        width: 100%;
+  }
+  .mt-10{
+      margin-top: 100px;
+  }
+  .mr-15{
+     margin-right: 50px;
+ }
+  
+ .section-height{
+     height: 80px;
+ }
+ .text-justify{
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 16px;
+ }
+
+ footer {
+    background-color: #444;
+    color: white;
+    padding: 5px 0;
+ }
+ .center-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; /* Adjust the height as needed */
+    background-color: #444; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    text-decoration: none; /* Remove default underline */
+  } 
+  .bg-darks{
+    background-color: #444;
+  }
+  .bg-green{
+    background-color: green;
+  }
+  .text-column {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+  }
+  .dash {
+   height: 100%; /* Set your desired height */
+   background-image: url('/images/dash.webp'); /* Specify the path to your image */
+   background-repeat: no-repeat;
+   /*background-size: cover;*/
+   background-position: right;
+   margin-right: auto;
+   position: relative;
+ }
+     
+ 
+

@@ -1,0 +1,146 @@
+/* Assurez-vous que tout prend la hauteur de l'écran */
+html, body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ /* Structure principale en flexbox */
+ .app-container {
+   display: flex;
+   flex-direction: column;
+   min-height: 100vh; /* 100% de la hauteur de l'écran */
+ }
+ 
+ /* Contenu principal qui prend tout l'espace restant */
+ .content-wrapper {
+   flex: 1;
+ }
+
+ .image-container {
+   height: 500px; /* Set your desired height */
+   background-image: url('../../assets/images/vic2.png'); /* Specify the path to your image */
+   background-repeat: no-repeat;
+   /*background-size: cover;*/
+   background-position: right;
+   margin-right: auto;
+   position: relative;
+ }
+ 
+ /* Le footer reste en bas */
+ .footer {
+   background-color: #444;
+   color: white;
+   padding: 15px 0;
+ }
+ 
+   /* Main content area */
+  .container-fluid {
+     -ms-flex: 1; /* IE 10 */
+     flex: 1;
+   }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+     font-family: "Jost", sans-serif;
+  }
+  
+  .mt-10{
+      margin-top: 100px;
+  }
+  
+  .left-margin{
+     margin-left: 15px;
+ }
+
+ .border-black{
+   border: 2px solid #000;
+}
+
+.hire-me:hover {
+   background-color: black;
+   color: white;
+   border-color: black;
+   transition: all 0.3s ease-in-out;
+ }
+
+ .about-me{
+   padding-top: 90px;
+   font-family:Bahnschrift;
+}
+ 
+.about-image {
+  	
+  height: 500px; /* Set your desired height */
+  background-image: url('../../assets/images/about.png'); /* Specify the path to your image */
+  background-size: cover;
+  background-position: right;
+  position: relative;
+}
+ 
+.section-height{
+     height: 80px;
+}
+
+hr.custom-hr {
+  border-top: 4px solid red; /* Replace with your desired border color */
+  margin: 5px 0; /* Adjust margin as needed */
+  width: 80px;
+}
+
+.pimg { 
+  height: 400px; /* Set your desired height */
+  background-image: url('../../assets/images/vic2.png'); /* Specify the path to your image */
+  background-size: cover;
+  position: relative;
+}
+
+ .text-color{
+  color: #00cc00;
+}
+
+.text-justify{
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+ footer {
+  background-color: #444;
+  color: white;
+  padding: 5px 0;
+ }
+ .center-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; /* Adjust the height as needed */
+    background-color: #444; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    text-decoration: none; /* Remove default underline */
+  } 
+
+  
+
+  .card-bg{
+    background-color: #444;
+  }
+
+  .bg-green{
+    background-color: green;
+  }
+
+  .text-column {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+  }
+  
+     
+ 
+
